@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    border-bottom: 5px solid;
+    margin: 30px;
+    padding: 5px 0;
+}
+
+body {
+    color: #444444;
+    background-color: #eeeeee;
+}
+
+h2 {
+    background-color: #dddddd;
+    border: 3px;
+    border-style: none none solid solid;
+    padding: 2px;
+}
+
+.kakukai {
+    background-color: #dddddd;
+    padding: 2px 5px;
+    margin: 10px 0;
+}
