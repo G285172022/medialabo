@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    border-bottom: 5px solid;
+    margin: 30px;
+    padding: 5px 0;
+}
+
+table {
+    table-layout: auto;
+    width: 90%;
+    background-color: #dddddd;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    color: #444444;
+    background-color: #eeeeee;
+}
+
+.colname {
+    width: 7em;
+}
+
+td {
+    border-left: 1px solid;
+    border-top: 1px solid;
+    padding:5px;
+}
+
+td:first-child{
+    border-left:none;
+}
+.top td{
+    border-top:none;
+}
