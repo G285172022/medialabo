@@ -14,7 +14,10 @@ table {
 }
 
 h2 {
-    text-align: center;
+    background-color: #dddddd;
+    border: 3px;
+    border-style: none none solid solid;
+    padding: 2px;
 }
 
 body {
@@ -29,12 +32,13 @@ body {
 td {
     border-left: 1px solid;
     border-top: 1px solid;
-    padding:5px;
+    padding: 5px;
 }
 
-td:first-child{
-    border-left:none;
+td:first-child {
+    border-left: none;
 }
-.top td{
-    border-top:none;
+
+.top td {
+    border-top: none;
 }
