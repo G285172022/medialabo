@@ -42,3 +42,21 @@ td:first-child {
 .top td {
     border-top: none;
 }
+
+#search{
+    font-size: 1.5em;
+    color: #444444;
+    background-color: #eeeeee;
+}
+
+.searchWindow{
+    background-color: #dddddd;
+    width: 90%;
+    padding: 0 0 7px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.error{
+    color:#ee4444;
+}

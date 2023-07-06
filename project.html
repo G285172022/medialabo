@@ -9,6 +9,36 @@
 </head>
 
 <body>
+    <h1>NHKの番組表検索</h1>
+    <div class="searchWindow">
+        <p class="channelSelector">
+            <b>検索するチャンネル: </b>
+            <input type="checkbox" name="service" id="g1">
+            <label for="g1">NHK総合1</label>
+            <input type="checkbox" name="service" id="e1">
+            <label for="e1">NHKEテレ1</label>
+        </p>
+        <p class="error" id="cerror"></p>
+        <p class="genreSelector">
+            <label for="genre"><b>番組のジャンル:</b></label>
+            <select name="genre" id="genre">
+                <option value="">検索する番組のジャンルを選択してください</option>
+                <option value="0000">ニュース・報道</option>
+                <option value="0100">スポーツ</option>
+                <option value="0205">情報・ワイドショー</option>
+                <option value="0300">ドラマ</option>
+                <option value="0409">音楽</option>
+                <option value="0502">バラエティ</option>
+                <option value="0600">映画</option>
+                <option value="0700">アニメ</option>
+                <option value="0800">ドキュメンタリー・教養</option>
+                <option value="0903">劇場・公演</option>
+                <option value="1000">趣味・教育</option>
+                <option value="1100">福祉</option>
+            </select>
+        </p>
+        <button id="search">検索</button>
+    </div>
     <div id="result"></div>
 </body>
 
