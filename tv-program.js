@@ -146,14 +146,12 @@ function showSearchResult() {
         let table = document.createElement('table');
         let colgroup = document.createElement('colgroup');
         let colClass = document.createElement('col');
-        colClass.classList.add('colname');
+        colClass.classList.add('rowNames');
         let colSpan = document.createElement('col');
         colSpan.span = '7';
         colgroup.insertAdjacentElement('beforeend', colClass);
         colgroup.insertAdjacentElement('beforeend', colSpan);
         table.insertAdjacentElement('beforeend', colgroup);
-
-        let tbody = document.createElement('tbody');
 
         let tr1 = document.createElement('tr');
         tr1.classList.add('top');
