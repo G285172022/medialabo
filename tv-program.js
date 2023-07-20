@@ -87,11 +87,11 @@ function showResult(resp) {
     if (data.list !== null) {
         if ('g1' in data.list) {
             g1data = data;
-            console.log('g1');
+            //console.log('g1');
         }
         if ('e1' in data.list) {
             e1data = data;
-            console.log('e1');
+            //console.log('e1');
         }
     }
     if (g1 === e1) {
@@ -121,7 +121,7 @@ function showError(err) {
 }
 
 function finish() {
-    console.log('End transmission.');
+    //console.log('End transmission.');
 }
 
 function showSearchResult() {
