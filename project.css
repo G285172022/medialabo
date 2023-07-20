@@ -18,6 +18,7 @@ h2 {
     border: 3px;
     border-style: none none solid solid;
     padding: 2px;
+    margin :15px 2px 15px 20px;
 }
 
 body {
@@ -59,4 +60,13 @@ td:first-child {
 
 .error{
     color:#ee4444;
+}
+
+h1.ch{
+    text-align: left;
+    background-color: #dddddd;
+    border: 3px;
+    border-style: none none solid solid;
+    padding: 2px 2px;
+    margin : 10px 0;
 }
