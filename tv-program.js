@@ -30,7 +30,7 @@ function searchButtonClicked() {
     g1data = undefined;
     e1data = undefined;
 
-    let channel = document.querySelectorAll('input[name="service"]')
+    let channel = document.querySelectorAll('input[name="service"]');
     if (channel[0].checked || channel[1].checked) {
         if (channel[0].checked) {
             g1 = true;
@@ -247,7 +247,7 @@ function showSearchResult() {
             let table = document.createElement('table');
             let colgroup = document.createElement('colgroup');
             let colClass = document.createElement('col');
-            colClass.classList.add('colname');
+            colClass.classList.add('rowNames');
             let colSpan = document.createElement('col');
             colSpan.span = '7';
             colgroup.insertAdjacentElement('beforeend', colClass);
